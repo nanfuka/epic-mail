@@ -115,7 +115,13 @@ html {
     justify-content: space-evenly;
 }
 .left-header p{
-    margin-right: 40%; 
+    margin-right: 40%;
+
+}
+.left-header a{
+    text-decoration: none;
+    color: white;
+     
 }
 
 .row-container {
@@ -172,7 +178,7 @@ html {
 .colmn1 {
     display: flex;
     flex-direction: column;
-    background-color: #d02718;
+    /* background-color: #947f7d; */
     margin-right: 1%;
     margin-bottom: 5%;
     width: 10%;
@@ -230,11 +236,7 @@ html {
 
 }
 
-.active-page {
-    background-color: rgb(8, 8, 36);
-    color: aliceblue;
-    text-decoration: none;
-}
+
 
 
 .compose-row1 input {
@@ -311,4 +313,9 @@ footer div {
         height: 10%;
         padding: 0.5%;
  
+}
+.active-page {
+    background-color: rgb(8, 8, 36);
+    color: aliceblue;
+    text-decoration: none;
 }
