@@ -141,8 +141,13 @@ html {
     display: flex;
     background-color: antiquewhite;
      margin: 1%; 
+   
     /* padding: 1%; */ */
 
+}
+.row2 a{
+    text-decoration: none;
+    color: black;
 }
 
 .row2 button {
