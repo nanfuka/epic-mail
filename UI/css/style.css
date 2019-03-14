@@ -104,6 +104,18 @@ html {
     font-size: 120%;
     border-radius: 25px;  */
 }
+.left-header{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-left: 70%;
+    margin-top: 2%;
+    font-size: 120%;
+    justify-content: space-evenly;
+}
+.left-header p{
+    margin-right: 40%; 
+}
 
 .row-container {
     display: flex;
@@ -116,6 +128,7 @@ html {
     display: flex;
     flex-direction: row-reverse;
     color: white;
+    justify-content: center;
 
 }
 
@@ -127,12 +140,15 @@ html {
 .row2 {
     display: flex;
     background-color: antiquewhite;
-    margin: 1%;
-    padding: 1%;
+     margin: 1%; 
+    /* padding: 1%; */ */
 
 }
 
 .row2 button {
+    margin: 1%;
+    font-size: 110%;
+    border-radius: 1%;
     /* width: auto;
 
      height: 45%; 
