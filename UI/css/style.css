@@ -91,14 +91,18 @@ html {
     justify-content: center;
 }
 
-.register input {
-    width: 60%;
-    padding: 15%;
-    margin: 5%;
+ .register input { 
+    text-align: center;
+    border-radius: 25px; 
+    width: 60%; 
+    height: 5%;
+    /* width: 60%; */
+    /* padding: 15%;
+    text-align: center;margin: 5%;
     text-align: center;
     border-block-end-color: chartreuse;
     font-size: 120%;
-    border-radius: 25px;
+    border-radius: 25px;  */
 }
 
 .row-container {
@@ -251,30 +255,17 @@ footer {
     flex-direction: row;
     margin-top: 10%;
     color: white;
+    justify-content: space-evenly;
 
 }
 
 footer div {
 
-    padding: 10%;
+    display: flex;
+    justify-content: center;
 
 }
 
-.bg {
-    /* The image used */
-    background-image: url("black.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity:0.2;
-    filter: brightness(150%); */
-
-}
 
 .header {
     display: flex;
@@ -284,5 +275,6 @@ footer div {
 }
 
 .header h1 {
+
     padding-left: 5%;
 }
