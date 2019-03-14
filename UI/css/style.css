@@ -79,7 +79,7 @@ top:1px;
     height: auto; 
     margin-left: 29%; 
     background-color: rgb(251, 255, 255);
-    margin-top: 10%;
+    /* padding-top: 10%; */
     align-items: center;
     justify-content: center;
 }
@@ -238,6 +238,15 @@ footer div{
     /* opacity:0.2;
     filter: brightness(150%); */
     
+  }
+  .header{
+      display: flex;
+      flex-direction: row;
+      color: rgb(206, 189, 189);
+      padding: 1%;
+  }
+  .header h1{
+      padding-left: 5%;
   }
 
 
