@@ -123,6 +123,9 @@ html {
     color: white;
      
 }
+.header h3{
+    display: none
+}
 
 .row-container {
     display: flex;
@@ -318,4 +321,66 @@ footer div {
     background-color: rgb(8, 8, 36);
     color: aliceblue;
     text-decoration: none;
+}
+.navicon{
+    display: none;
+}
+.media-header{
+    display: none
+}
+@media (max-width: 1047px) {
+
+	.header{
+        display: flex;
+       margin-left: 10%;
+    }
+    .register{
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 2%;
+        margin-top:5%;
+        padding: 0;
+    }
+    .left-header p{
+        display: none;
+    }
+
+    .header h3{
+        display: block;
+    }
+    .media-header{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5%;
+
+       
+
+    }
+    .media-header a{
+        text-decoration: none;
+        color: white;
+    } 
+
+}
+@media (max-width: 600px) {
+    .navicon{
+        display: block;
+    }
+    .row2{
+        display: none;
+
+    }
+    
+    /* .nav-ic{
+        float: left;
+    }
+    .compose-icon{
+        display: none;
+    } */
+    .header img{
+        display: none;
+    }
+    .colmn1{
+        display: none;
+    }
 }
