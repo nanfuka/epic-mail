@@ -37,7 +37,7 @@ Accessing the frontend of the application
 
 # Demo
 
-The link to the Gh-Pages demostrating the application can be found here
+The link to the Gh-Pages demostrating the application can be found [here](https://nanfuka.github.io/epic-mail/UI/index.html)
 
 # Authors
 
