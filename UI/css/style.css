@@ -97,13 +97,20 @@ html {
     border-radius: 25px;
     width: 60%;
     height: 5%;
-    /* width: 60%; */
-    /* padding: 15%;
-    text-align: center;margin: 5%;
+
+}
+button{
+    outline: none;
+}
+.register button {
     text-align: center;
-    border-block-end-color: chartreuse;
-    font-size: 120%;
-    border-radius: 25px;  */
+    border-radius: 25px;
+    width: 60%;
+    height: 5%;
+
+    /* input:focus, textarea:focus, select:focus{ */
+        outline: none;
+
 }
 
 .left-header {
@@ -129,6 +136,11 @@ html {
 
 .header h3 {
     display: none
+}
+.header h1{
+    color:  aliceblue;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .row-container {
@@ -284,6 +296,11 @@ html {
 .member-email {
     margin: 3.9%;
     width: 71%;
+}
+.epic{
+    font-size: 250%;
+    color: floralwhite;
+    margin-top: 1.5%;
 }
 
 footer {
@@ -467,3 +484,5 @@ footer div {
         display: none;
     }
 }
+input:focus, textarea:focus, select:focus{
+    outline: none;
