@@ -263,11 +263,13 @@ button{
 
 .compose-row1 input {
     width: 70.5%;
+    height:5%;
     margin-left: 8.4%;
 }
 
 .compose-row2 input {
     width: 70.5%;
+    height:5%;
     margin-left: 6%;
 }
 
