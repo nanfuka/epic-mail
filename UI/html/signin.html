@@ -5,34 +5,51 @@
         Epic-mail
     </title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/scripts.js"></script>
 </head>
 
 <body>
     <div class="background">
-        <div class = "header">
-            <div >
-                    <h1 class = "blue">Epic</h1>
-                    <!-- <img src="../images/logo.png" alt="logo" style="width:128px;height:128px;"> -->
+        <div class="header">
+            <div>
+                <h1 class="blue">Epic</h1>
+                <!-- <img src="../images/logo.png" alt="logo" style="width:128px;height:128px;"> -->
             </div>
-            <div><h1>MAIL</h1></div>
-        
-        </div>
-        <form action="user_dash.html">
-        <div class="register">
-                <!-- <form action="user_dash.html"> -->
-            <h1>signin</h1>
-            <input type = "email" placeholder="email" required><br>
-            <input type = "password" placeholder="password" required><br>
-           
-            <button class="myButton" type = "submit">LOGIN</button>
-                </form>
+            <div>
+                <h1>MAIL</h1>
+            </div>
 
-            <P>Dont have an account? <a href="signup.html">signup </a></P>
-            <a href="#">
-                <p><a href ="forgot_email.html">forgot your password</a></p>
-            </a>
         </div>
+        <form name="login">
+            <div class="register">
+                <!-- <form action="user_dash.html"> -->
+                <h1>signin</h1>
+                <input type="email" name = "email" placeholder="email" required><br>
+                <input type="password" name = "password" placeholder="password" required><br>
+
+                <button class="myButton" type="submit" onclick="check(this.form)" value="Login">LOGIN</button>
+        </form>
+
+        <P>Dont have an account? <a href="signup.html">signup </a></P>
+        <a href="#">
+            <p><a href="forgot_email.html">forgot your password</a></p>
+        </a>
+    </div>
     </div>
 </body>
+
+<script language="javascript">
+    function check(form)
+    {
+     if(form.email.value == "admin@epic.com" && form.password.value == "admin")
+      {
+        window.open('admin.html')
+      }
+     else
+     {
+        window.open('user_dash.html')
+      }
+    }
+    </script>
 
 </html>
